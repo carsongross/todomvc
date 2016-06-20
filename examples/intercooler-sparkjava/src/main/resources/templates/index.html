@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" data-framework="intercoolerjs">
+<head>
+  <meta charset="utf-8">
+  <title>intercooler.js • TodoMVC</title>
+  <link rel="stylesheet" href="css/todomvc-common/base.css">
+  <link rel="stylesheet" href="css/todomvc-app-css/index.css">
+</head>
+<body class="learn-bar">
+
+{{> aside.html}}
+
+<section id="todoapp" ic-target="this">
+  {{> main_section.html}}
+</section>
+
+<footer id="info">
+  <p>Double-click to edit a todo</p>
+  <p>Credits:
+    <a href="https://twitter.com/carson_gross">Carson Gross</a>,
+  </p>
+  <p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
+</footer>
+<script src="/js/jquery-1.12.4.js"></script>
+<script src="/js/intercooler-0.9.6.js"></script>
+<script src="/js/app.js"></script>
+</body>
+</html>
